@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const http = require("http");
+const dotenv = require('dotenv');
+dotenv.config();
 
 const { Server } = require('socket.io');
 
@@ -10,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 const io = new Server(server, {
     cors: {
-        origin: "https://mini-chatapp-1.onrender.com",
+        origin: process.env.CLIENT_URL,
         methods: ["GET", "POST"]
     },
 });
