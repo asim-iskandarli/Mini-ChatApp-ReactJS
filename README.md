@@ -11,8 +11,6 @@ Frontend - React JS, Styled Components
 **Install dependencies backend and frontend** <br/> 
 ### `cd ./server npm install`
 ### `cd ./client npm install`
-
-<br/> 
 <br/> 
 <br/> 
 
