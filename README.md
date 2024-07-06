@@ -6,9 +6,13 @@ Used in this project:
 Backend - Socket.io, Node JS (Express)
 Frontend - React JS, Styled Components
 
+
+
 Install dependencies backend and frontend
 ### `cd ./server npm install`
 ### `cd ./client npm install`
+
+
 
 Start project
 ### `cd ./server npm start`
