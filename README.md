@@ -1,7 +1,7 @@
 **Mini Chat App**
 
 **Live Demo:** [Demo](https://mini-chatapp.onrender.com) 
-**Screnshot:**![image](/asim-iskandarli/mini-chatapp/blob/main/screenshot.gif)
+**Screnshot:**![image](https://github.com/asim-iskandarli/mini-chatapp/blob/main/screenshot.gif)
 
 **Used in this project:** <br/> 
 Backend - Socket.io, Node JS (Express) <br/> 
