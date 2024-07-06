@@ -14,6 +14,9 @@ const Chat = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    if(!socket || !username || !roomId) {
+      navigate('/');
+    }
     socket.on('messageClient', (data) => {
       setMessages((prev) => [...prev, { ...data, type: 'message' }]);
     });
@@ -27,7 +30,7 @@ const Chat = () => {
     });
 
     return () => socket.emit('leaveRoom', { roomId, username });
-  }, [roomId, socket, username])
+  }, [navigate, roomId, socket, username])
 
   useEffect(() => {
     scrollRef.current.scrollTop = scrollRef.current.scrollHeight
@@ -68,8 +71,6 @@ const Chat = () => {
                 <p key={Math.floor(Math.random() * 1000)}>{item.username} {item.message} to room</p>
             ))
           }
-
-
         </MessagesBox>
         <Bottom>
           <Input value={message} onChange={(e) => setMessage(e.target.value)} />
@@ -80,4 +81,4 @@ const Chat = () => {
   )
 }
 
-export default Chat
+export default Chat;
