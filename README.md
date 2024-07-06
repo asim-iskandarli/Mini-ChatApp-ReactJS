@@ -1,6 +1,6 @@
 **Mini Chat App**
 
-**Live Demo:** [Demo](https://mini-chatapp.onrender.com) 
+**Live Demo:** [Demo](https://mini-chatapp.onrender.com) <br/> 
 **Screnshot:**![image](https://github.com/asim-iskandarli/mini-chatapp/blob/main/screenshot.gif)
 
 **Used in this project:** <br/> 
