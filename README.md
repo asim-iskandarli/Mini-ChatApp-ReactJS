@@ -1,6 +1,6 @@
 **Mini Chat App**
 
-**Live Demo:** [link](https://mini-chatapp.onrender.com) 
+**Live Demo:** [Demo](https://mini-chatapp.onrender.com) 
 
 **Used in this project:**
 Backend - Socket.io, Node JS (Express)
