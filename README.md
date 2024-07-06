@@ -3,7 +3,7 @@
 **Live Demo:** [Demo](https://mini-chatapp.onrender.com) 
 
 **Used in this project:**
-Backend - Socket.io, Node JS (Express)
+Backend - Socket.io, Node JS (Express) <br/> 
 Frontend - React JS, Styled Components
 <br/> 
 <br/> 
