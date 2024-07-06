@@ -5,9 +5,6 @@ import Chat from './pages/Chat';
 import GlobalStyle from './globalStyles';
 import { Fragment } from 'react';
 
-
-
-
 function App() {
   return (
     <Fragment>

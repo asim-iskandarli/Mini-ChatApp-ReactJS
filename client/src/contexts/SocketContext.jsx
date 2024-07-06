@@ -10,7 +10,7 @@ export const useSocketContext = () => {
 }
 
 const SocketProvider = ({ children }) => {
-    const socket = io.connect("http://localhost:5000");
+    const socket = io.connect(process.env.REACT_APP_SERVER_URL);
 
     return (
         <SocketContext.Provider value={socket}>

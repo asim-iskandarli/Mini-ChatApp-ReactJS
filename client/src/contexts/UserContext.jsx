@@ -1,6 +1,4 @@
 import { createContext, useContext, useState } from "react";
-import SocketProvider from "./SocketContext";
-
 
 const UserContext = createContext({
     username: "",
