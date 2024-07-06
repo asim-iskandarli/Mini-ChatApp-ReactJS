@@ -42,8 +42,14 @@ export const Button = styled.button`
 `;
 
 export const ErrorMessage = styled.h4`
-    color: #f2380d;
-    margin-top: 1rem;
+    width: 100%;
+    background-color: #ee31314f;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 3px;
+    color: #9c2727;
+    letter-spacing: 1px;
+    text-align: center;
 `;
 
 export default GlobalStyle;

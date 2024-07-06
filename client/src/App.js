@@ -1,4 +1,3 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Chat from './pages/Chat';
@@ -14,7 +13,6 @@ function App() {
         <Route path='/chat' element={<Chat />} />
       </Routes>
     </Fragment>
-
   );
 }
 

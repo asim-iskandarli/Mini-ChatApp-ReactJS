@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <HomePage>
-      <img src='./logo.png' alt='logo' style={{width: 50, height: 50, marginBottom: 10}}/>
+      <img src='./logo.png' alt='logo' style={{ width: 50, height: 50, marginBottom: 10 }} />
       <Title> Welcome to Chat App</Title>
       <Form onSubmit={onSubmit}>
         <InputField>
@@ -36,11 +36,11 @@ const Home = () => {
           <Input placeholder='Enter room id' onChange={(e) => setRoomId(e.target.value)} value={roomId} />
         </InputField>
         <Button>Start Chat</Button>
+        {
+          error &&
+          <ErrorMessage>{error}</ErrorMessage>
+        }
       </Form>
-      {
-        error &&
-        <ErrorMessage>{error}</ErrorMessage>
-      }
     </HomePage>
   )
 }
